@@ -1,0 +1,59 @@
+body {
+    background-color: #f0f0f0;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto; /* Zwiększyłam margines na górze i na dole */
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+  }
+  
+  #lista-samochodow {
+    text-align: center;
+  }
+  
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .car {
+    flex: 0 0 calc(33.33% - 20px); /* Ustawiamy szerokość obiektu samochodu, minus 20px na marginesy */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .car img {
+    max-width: 100%;
+  }
+  
+  .car .car-info {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  
+  #formularz-konfiguracji h2 {
+    text-align: center;
+  }
+  #zakup-button {
+    float: right;
+  }
+  
